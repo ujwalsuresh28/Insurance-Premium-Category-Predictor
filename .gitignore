@@ -1,0 +1,32 @@
+# Environment Secrets (CRITICAL for Privacy)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / Frontend Build & Dependency folders
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.eslintcache
+frontend/.env.local
+
+# System/OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
